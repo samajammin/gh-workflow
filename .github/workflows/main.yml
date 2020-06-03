@@ -3,6 +3,8 @@ on: [push]
 jobs:
   docsearch_job:
     runs-on: ubuntu-latest
-    name: Docsearch crawl
+    name: Crawl docsearch
     steps:
-      uses: samajammin/docsearch-crawl@v
+      - run: echo "Hello"
+      - uses: samajammin/gh-action@v1
+      - run: echo "Goodbye"
