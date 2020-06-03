@@ -6,5 +6,5 @@ jobs:
     name: Crawl docsearch
     steps:
       - run: echo "Hello"
-      - uses: samajammin/gh-action@v1
+      - uses: samajammin/docsearch-crawl@v0.0.1
       - run: echo "Goodbye"
